@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Hector Suazo, and Unitec">
+  <meta name="generator" content="Hector Suazo 0.122.0">
+  <title>Pagina Inicio · Bootstrap v5.3</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/miestilo.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/95142c122d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <section id="topbar" class="topbar ">
+      <div class="container d-flex justify-content-between">
+        <div class="contact" id="contact">
+          <a href="mailto:empresa@gmail.com"><i class="fa-solid fa-envelope"></i> empresa@gmail.com   </a>
+          <span>  <i class="fa-solid fa-mobile-screen ml-20"></i> Telefono: 9999-9999</span>
+        </div>
+        <div id="iconos_social">
+          <span>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </span>
+        </div>
+      </div>
+    </section>
+    <section id="menu" class="menu">
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand logo" href="#">BizLand</a>
+          <ul class="nav">
+            <li class="nav-item espacio_derecha_izquierda">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+          
+            <li class="nav-item espacio_derecha_izquierda">
+              <a class="nav-link" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item espacio_derecha_izquierda">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item espacio_derecha_izquierda">
+              <a class="nav-link active" aria-current="page" href="catalogo.html">Catalogo Producto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+  </header>
+  <main>
+    <section id="contacto" class="contacto container">
+      <div class="row">
+        <div class="col-12 centrado"> 
+          <h3 class="azulito redondeado"> CONTACT </h3>
+          <h1 class="azulito">Contact Us</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="row patrocinadores">
+        <div class="col-6 centrado fondoblanco espacio_arriba_abajo">
+          <i class="fa-solid fa-location-dot fa-2xl azulito" ></i>
+          <h3> Our Address</h3>
+          <p>A108 Adam Street, New York, NY 535022</p>
+        </div>
+        <div class="col-3 centrado fondoblanco espacio_arriba_abajo">
+          <i class="fa-solid fa-envelope fa-2xl azulito"></i>
+          <h3> Email Us</h3>
+          <p>contact@example.com</p>
+        </div>
+        <div class="col-3 centrado fondoblanco espacio_arriba_abajo">
+          <i class="fa-solid fa-phone fa-2xl azulito"></i>
+          <h3> Call Us</h3>
+          <p>+1 5589 55488 55</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.4922132745887!2d-87.17669942402485!3d14.048086886375382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fbcfacdb96c17%3A0x94999a679eabaa4f!2sUniversidad%20Tecnol%C3%B3gica%20Centroamericana!5e0!3m2!1ses!2shn!4v1717027199747!5m2!1ses!2shn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-6">
+          <form>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="input_nombre" placeholder="Hector Suazo">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="input_correo" placeholder="nombre@gmail.com">
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Mensa</label>
+              <textarea class="form-control"  rows="6"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <footer></footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
