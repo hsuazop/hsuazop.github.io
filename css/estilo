@@ -1,0 +1,47 @@
+.nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  padding: 30px;
+}
+
+.cecilmurillo{
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    padding: 35px;
+}
+
+#intro img{
+    width: 600px;
+    height: 650px;
+    padding: 50px;
+  
+}
+
+#fut{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Playfair Display';
+    padding: 20px;
+}
+
+#proyectos img{
+    width: 400px;
+    height: 550px;
+    
+}
+
+#proyectos{
+    font-family: 'Payfair Display';
+    font-size: 5px;
+    padding: 30px;
+}
+
+#mall img{
+    height: 50px;
+    width: 50px;
+}
+
